@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Hole']
+
+roboflow:
+  workspace: holes-bixgu
+  project: detect-count-and-visualize-object-detection-qzrqy
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/holes-bixgu/detect-count-and-visualize-object-detection-qzrqy/dataset/10
